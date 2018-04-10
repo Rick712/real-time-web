@@ -17,9 +17,20 @@ app.get('/', function (req, res) {
 })
 
 io.on('connection', function (socket) {
+
+
+
+
+
     socket.on('chat message', function (msg) {
         io.emit('chat message', msg);
     });
+
+
+
+
+
+
     io.of('/').clients((error, clients) => {
         if (error) throw error
         socket.broadcast.emit('leave', { number: clients.length });
@@ -27,11 +38,29 @@ io.on('connection', function (socket) {
     socket.on('disconnect', (reason) => {
         io.of('/').clients((error, clients) => {
             if (error) throw error
-            console.log( 'currentConnections', clients.length)
             socket.broadcast.emit('leave', { number: clients.length });
         })
     })
 });
+
+
+
+
+
+
+
+
+io.on('connection', function(socket) {
+    socket.on('story', function(stories) {
+        io.emit('story', stories)
+        console.log(stories)
+    })
+})
+
+
+
+
+
 
 
 http.listen(port, function () {

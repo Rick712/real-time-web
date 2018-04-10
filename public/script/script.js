@@ -11,9 +11,13 @@
     })
 
     socket.on('chat message', function(msg) {
-        const listItem = document.createElement('li')
+        const listItem = document.createElement('p')
+        listItem.classList.add('paragraph')
         listItem.innerHTML = msg
         messages.appendChild(listItem)
+        const story = document.querySelector('.paragraph:last-of-type').innerHTML
+        console.log(story)
+        socket.emit('story', story)
     })
 
     socket.on( 'leave', function( msg ) {
