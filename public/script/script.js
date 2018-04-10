@@ -15,9 +15,11 @@
         listItem.classList.add('paragraph')
         listItem.innerHTML = msg
         messages.appendChild(listItem)
-        const story = document.querySelector('.paragraph:last-of-type').innerHTML
-        console.log(story)
-        socket.emit('story', story)
+        const completeStory = {}
+        let paragraph = document.querySelector('.paragraph:last-of-type').innerHTML
+        completeStory.
+        console.log(completeStory)
+        socket.emit('completeStory', completeStory)
     })
 
     socket.on( 'leave', function( msg ) {
