@@ -5,7 +5,7 @@ This project is built with `socket.io` and is used for basic real-time story wri
 The website can be accesed through: https://writeastory-famfisnkmz.now.sh/
 
 <br/>
-  <img src="https://i.imgur.com/q2gwGAT.png" alt="Image of a chat" height="auto" width="600" style="margin: 2em auto; display: block; margin: 0 auto;">
+  <img src="https://i.imgur.com/q2gwGAT.png" alt="Image of a chat" height="auto" width="100%" style="margin: 2em auto; display: block; margin: 0 auto;">
 <br/>
 
 - **[About this project](#about-this-project)**  
