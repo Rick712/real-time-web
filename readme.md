@@ -2,7 +2,7 @@
 
 This project is built with `socket.io` and is used for basic communications via a chat.
 <br/>
-<p align="center">
+<p align="left">
   <img src="./readme-images/rick-chat.png" alt="Image of a chat" height="auto" width="600" style="margin: 2em auto; display: block;">
 </p>
 <br/>
