@@ -51,6 +51,7 @@ nodemon app.js
 This project includes:  
 - Node
 - Express
+- EJS
 - Socket.io  
 
 _git money_
