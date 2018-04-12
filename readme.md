@@ -9,7 +9,7 @@ This project is built with `socket.io` and is used for basic communications via 
 
 - **[About this project](#about-this-project)**  
 - **[Installing](#installing)**  
-- **[Technology used](#techonology-used)**  
+- **[Technology used](#technology-used)**  
 
 ## About this project
 This project features a chat for multiple people.  
