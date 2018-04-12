@@ -18,6 +18,6 @@ nodemon app.js
 
 ## About this project
 This project features a chat for multiple people.
-You can send messages to each other in _REAL TIME!!!!_
+You can send messages to each other in **REAL TIME!!!!**
 
 _git money_
