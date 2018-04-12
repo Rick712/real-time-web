@@ -1,7 +1,8 @@
 # Real Time Chat
 
 This project is built with `socket.io` and is used for basic communications via a chat.
-![Chat](./readme-images/rick-chat.png "Image of a chat")
+
+<img src="./readme-images/rick-chat.png" alt="Image of a chat" height="auto" width="600" style="margin: 2em auto; display: block;">
 
 - **[Installing](#installing)**  
 - **[About this project](#about-this-project)**  
